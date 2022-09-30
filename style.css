@@ -1,0 +1,75 @@
+body{
+	padding: 0;
+}
+
+.navbar{
+	background: #3c3e44;
+}
+
+.divNav{
+	padding: 0 5%;
+}
+
+.imgCodo{
+	width: 5rem;
+}
+
+.greenLi{
+	color: #00bb55;
+}
+
+.divFondo{
+	background: url("ba1.jpg") no-repeat;
+	opacity: 0.5;
+	background-size: 100%;
+	height: 90vh;
+}
+
+
+
+.divTextFondo{
+	padding: 23% 5% 10% 55%;
+}
+
+.sectionOradores{
+	height: 95vh;
+}
+
+
+.ulCards{
+	padding: 0 10%;
+}
+
+.ulCards .card{
+	width: 20rem;
+}
+
+.ulCards p{
+	font-size: 0.8em;
+}
+
+.divSingleCard{
+	background: #414048;
+}
+
+form{
+	padding: 0 23%;
+}
+
+.conviertete .anotate{
+	font-size: 0.9em;
+}
+
+.recuerda{
+	font-size: 0.8em;
+}
+
+
+.footer{
+	background: #1b3645;
+	padding: 0% 15%;
+}
+
+.footer a{
+	margin: 2%  4%;
+}

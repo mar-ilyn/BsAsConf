@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conf Bs As</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-black">
+
+  <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="divNav container-fluid d-flex flex-row">
+          <a class="navbar-brand" href="#"><img src="codoacodo.png" class="imgCodo"></a>
+          <a href="" class="navbar-brand fs-5 text-white">Conf Bs As</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fs-7">
+              <li class="nav-item">
+                <a class="nav-link active text-white">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50">Conviértete en un orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link greenLi">Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+      <section class="sectionFondo container-fluid p-0">
+        <div class="divFondo"></div>
+        <div class="divTextFondo text-white d-flex flex-column align-items-end position-absolute fixed-top">
+          <h1 >Conf Bs As</h1>
+          <p class="text-end">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="divButtons d-flex flex-row justify-content-around w-75">
+            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+            <button type="button" class="btn btn-success">Comprar ticket</button>
+          </div>
+        </div>
+      </section>
+
+     <section class="sectionOradores container-fluid p-0 bg-white py-3">
+        <p class="text-uppercase text-center m-0">conoce a los</p>
+        <h2 class="text-uppercase fs-3 text-center font-weight-bold mb-1">oradores</h2>
+        <ul class="ulCards d-flex flex-row justify-content-around">
+          <li class="card">
+              <img class="card-img-top" src="steve.jpg" alt="Card image cap">
+              <div class="card-body">
+                <button type="button" class="btn btn-warning btn-sm p-0"><span class="badge badge-warning text-black px-1">JavaScript</span></button>
+                <button type="button" class="btn btn-info btn-sm p-0"><span class="badge badge-info text-white px-1">React</span></button>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Ut enim ad minim veniamt.</p>
+              </div>
+          </li>
+
+          <li class="card">
+              <img class="card-img-top" src="bill.jpg" alt="Card image cap">
+              <div class="card-body">
+                <button type="button" class="btn btn-warning btn-sm p-0"><span class="badge text-black px-1">JavaScript</span></button>
+                <button type="button" class="btn btn-info btn-sm p-0"><span class="badge text-white px-1">React</span></button>
+                <h5 class="card-title ">Bill Gates</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Ut enim ad minim veniam.</p>
+              </div>
+          </li>
+
+          <li class="card">
+              <img class="card-img-top" src="ada.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <button type="button" class="btn btn-secondary btn-sm p-0"><span class="badge px-1">Negocios</span></button>
+                <button type="button" class="btn btn-danger btn-sm p-0"><span class="badge text-white px-1">Startups</span></button>
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Ut enim ad minim veniam.</p>
+              </div>
+          </li>
+        </ul>
+     </section>
+
+     <section class="container-fluid d-flex flex-row p-0">
+       <div class="w-50">
+         <img class="w-100" src="honolulu.jpg">
+       </div>
+
+       <div class="divSingleCard card text-white w-50 p-3">
+          <h3 class="card-title">Bs As - Octubre</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button type="button" class="btn btn-outline-light w-25">Conocé más</button>
+        </div>
+       </div>
+     </section>
+
+     <form class="bg-white py-4">
+        <p class="conviertete text-uppercase text-center m-0">conviértete en un</p>
+
+        <h2 class="text-uppercase fs-2 text-center font-weight-bold mb-1">orador</h2>
+
+        <p class="anotate text-center my-2">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+
+        <div class="form-row d-grid">
+
+          <div class="row pb-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+
+        </div>
+
+        <div class="row m-1 pb-2">
+              <textarea type="text" class="form-control" id="inputAddress" placeholder="Sobre qué quieres hablar?" rows="4"></textarea>
+        </div>
+
+        <p class="recuerda text-secondary pt-0">Recuerda incluir un título para tu charla</p>
+
+        <button type="submit" class="btn btn-success w-100">Enviar</button>
+    </form>
+
+  </main>
+
+  <footer>
+          <div class="footer d-flex flex-row justify-content-around align-items-center text-white">
+            <a class="nav-link" href="#">Preguntas frecuentes</a>
+            <a class="nav-link" href="#">Contáctenos</a>
+            <a class="nav-link" href="#">Prensa</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Conferencias</a>
+            <a class="nav-link" href="#">Términos y condiciones</a>
+            <a class="nav-link" href="#">Privacidad</a>
+            <a class="nav-link" href="#">Estudiantes</a>
+          </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
